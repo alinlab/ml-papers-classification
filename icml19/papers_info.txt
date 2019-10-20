@@ -10,7 +10,7 @@ As data becomes the fuel driving technological and economic growth, a fundamenta
 
 ELF OpenGo: an analysis and open reimplementation of AlphaZero
 http://proceedings.mlr.press/v97/tian19a/tian19a.pdf
-Deep RL 1
+Deep RL
 The AlphaGo, AlphaGo Zero, and AlphaZero series of algorithms are remarkable demonstrations of deep reinforcement learning’s capabilities, achieving superhuman performance in the complex game of Go with progressively increasing autonomy. However, many obstacles remain in the understanding of and usability of these promising approaches by the research community. Toward elucidating unresolved mysteries and facilitating future research, we propose ELF OpenGo, an open-source reimplementation of the AlphaZero algorithm. ELF OpenGo is the first open-source Go AI to convincingly demonstrate superhuman performance with a perfect (20:0) record against global top professionals. We apply ELF OpenGo to conduct extensive ablation studies, and to identify and analyze numerous interesting phenomena in both the model training and in the gameplay inference procedures. Our code, models, selfplay datasets, and auxiliary data are publicly available.
 
 Regret Circuits: Composability of Regret Minimizers
@@ -80,7 +80,7 @@ Two types of zeroth-order stochastic algorithms have recently been designed for 
 
 Making Deep Q-learning methods robust to time discretization
 http://proceedings.mlr.press/v97/tallec19a/tallec19a.pdf
-Deep RL 1
+Deep RL
 Despite remarkable successes, Deep Reinforce- ment Learning (DRL) is not robust to hyperparam- eterization, implementation details, or small envi- ronment changes (Henderson et al. 2017, Zhang et al. 2018). Overcoming such sensitivity is key to making DRL applicable to real world problems. In this paper, we identify sensitivity to time dis- cretization in near continuous-time environments as a critical factor; this covers, e.g., changing the number of frames per second, or the action frequency of the controller. Empirically, we find that Q-learning-based approaches such as Deep Q- learning (Mnih et al., 2015) and Deep Determinis- tic Policy Gradient (Lillicrap et al., 2015) collapse with small time steps. Formally, we prove that Q-learning does not exist in continuous time. We detail a principled way to build an off-policy RL algorithm that yields similar performances over a wide range of time discretizations, and confirm this robustness empirically.
 
 On Efficient Optimal Transport: An Analysis of Greedy and Accelerated Mirror Descent Algorithms
@@ -100,7 +100,7 @@ In this paper, we propose a faster stochastic alternating direction method of mu
 
 Nonlinear Distributional Gradient Temporal-Difference Learning
 http://proceedings.mlr.press/v97/qu19b/qu19b.pdf
-Deep RL 1
+Deep RL
 We devise a distributional variant of gradient temporal-difference (TD) learning. Distributional reinforcement learning has been demonstrated to outperform the regular one in the recent study \citep{bellemare2017distributional}. In the policy evaluation setting, we design two new algorithms called distributional GTD2 and distributional TDC using the Cram{é}r distance on the distributional version of the Bellman error objective function, which inherits advantages of both the nonlinear gradient TD algorithms and the distributional RL approach. In the control setting, we propose the distributional Greedy-GQ using similar derivation. We prove the asymptotic almost-sure convergence of distributional GTD2 and TDC to a local optimal solution for general smooth function approximators, which includes neural networks that have been widely used in recent study to solve the real-life RL problems. In each step, the computational complexity of above three algorithms is linear w.r.t. the number of the parameters of the function approximator, thus can be implemented efficiently for neural networks.
 
 Stable-Predictive Optimistic Counterfactual Regret Minimization
@@ -145,7 +145,7 @@ Smooth finite-sum optimization has been widely studied in both convex and noncon
 
 Composing Entropic Policies using Divergence Correction
 http://proceedings.mlr.press/v97/hunt19a/hunt19a.pdf
-Deep RL 1
+Deep RL
 Composing skills mastered in one task to solve novel tasks promises dramatic improvements in the data efficiency of reinforcement learning. Here, we analyze two recent works composing behaviors represented in the form of action-value functions and show that they perform poorly in some situations. As part of this analysis, we extend an important generalization of policy improvement to the maximum entropy framework and introduce an algorithm for the practical implementation of successor features in continuous action spaces. Then we propose a novel approach which addresses the failure cases of prior work and, in principle, recovers the optimal policy during transfer. This method works by explicitly learning the (discounted, future) divergence between base policies. We study this approach in the tabular case and on non-trivial continuous control problems with compositional structure and show that it outperforms or matches existing methods across all tasks considered.
 
 Improving Model Selection by Employing the Test Data
@@ -195,7 +195,7 @@ We consider the PAC learnability of the local functions at the vertices of a dis
 
 TibGM: A Transferable and Information-Based Graphical Model Approach for Reinforcement Learning
 http://proceedings.mlr.press/v97/adel19a/adel19a.pdf
-Deep RL 1
+Deep RL
 One of the challenges to reinforcement learning (RL) is scalable transferability among complex tasks. Incorporating a graphical model (GM), along with the rich family of related methods, as a basis for RL frameworks provides potential to address issues such as transferability, generalisation and exploration. Here we propose a flexible GM-based RL framework which leverages efficient inference procedures to enhance generalisation and transfer power. In our proposed transferable and information-based graphical model framework ‘TibGM’, we show the equivalence between our mutual information-based objective in the GM, and an RL consolidated objective consisting of a standard reward maximisation target and a generalisation/transfer objective. In settings where there is a sparse or deceptive reward signal, our TibGM framework is flexible enough to incorporate exploration bonuses depicting intrinsic rewards. We empirically verify improved performance and exploration power.
 
 LR-GLM: High-Dimensional Bayesian Inference Using Low-Rank Data Approximations
@@ -270,7 +270,7 @@ We present a generalization of the adversarial linear bandits framework, where t
 
 Multi-Agent Adversarial Inverse Reinforcement Learning
 http://proceedings.mlr.press/v97/yu19e/yu19e.pdf
-Deep RL 1
+Deep RL
 Reinforcement learning agents are prone to undesired behaviors due to reward mis-specification. Finding a set of reward functions to properly guide agent behaviors is particularly challenging in multi-agent scenarios. Inverse reinforcement learning provides a framework to automatically acquire suitable reward functions from expert demonstrations. Its extension to multi-agent settings, however, is difficult due to the more complex notions of rational behaviors. In this paper, we propose MA-AIRL, a new framework for multi-agent inverse reinforcement learning, which is effective and scalable for Markov games with high-dimensional state-action space and unknown dynamics. We derive our algorithm based on a new solution concept and maximum pseudolikelihood estimation within an adversarial reward learning framework. In the experiments, we demonstrate that MA-AIRL can recover reward functions that are highly correlated with the ground truth rewards, while significantly outperforms prior methods in terms of policy imitation.
 
 POPQORN: Quantifying Robustness of Recurrent Neural Networks
@@ -280,7 +280,7 @@ The vulnerability to adversarial attacks has been a critical issue for deep neur
 
 Policy Consolidation for Continual Reinforcement Learning
 http://proceedings.mlr.press/v97/kaplanis19a/kaplanis19a.pdf
-Deep RL 1
+Deep RL
 We propose a method for tackling catastrophic forgetting in deep reinforcement learning that is \emph{agnostic} to the timescale of changes in the distribution of experiences, does not require knowledge of task boundaries and can adapt in \emph{continuously} changing environments. In our \emph{policy consolidation} model, the policy network interacts with a cascade of hidden networks that simultaneously remember the agent’s policy at a range of timescales and regularise the current policy by its own history, thereby improving its ability to learn without forgetting. We find that the model improves continual learning relative to baselines on a number of continuous control tasks in single-task, alternating two-task, and multi-agent competitive self-play settings.
 
 A Composite Randomized Incremental Gradient Method
@@ -330,7 +330,7 @@ Natural-gradient methods enable fast and simple algorithms for variational infer
 
 Off-Policy Deep Reinforcement Learning without Exploration
 http://proceedings.mlr.press/v97/fujimoto19a/fujimoto19a.pdf
-Deep RL 1
+Deep RL
 Many practical applications of reinforcement learning constrain agents to learn from a fixed batch of data which has already been gathered, without offering further possibility for data collection. In this paper, we demonstrate that due to errors introduced by extrapolation, standard off-policy deep reinforcement learning algorithms, such as DQN and DDPG, are incapable of learning with data uncorrelated to the distribution under the current policy, making them ineffective for this fixed batch setting. We introduce a novel class of off-policy algorithms, batch-constrained reinforcement learning, which restricts the action space in order to force the agent towards behaving close to on-policy with respect to a subset of the given data. We present the first continuous control deep reinforcement learning algorithm which can learn effectively from arbitrary, fixed batch data, and empirically demonstrate the quality of its behavior in several tasks.
 
 Self-Attention Graph Pooling
@@ -405,7 +405,7 @@ Zero-sum games such as chess and poker are, abstractly, functions that evaluate 
 
 Random Expert Distillation: Imitation Learning via Expert Policy Support Estimation
 http://proceedings.mlr.press/v97/wang19d/wang19d.pdf
-Deep RL 1
+Deep RL
 We consider the problem of imitation learning from a finite set of expert trajectories, without access to reinforcement signals. The classical approach of extracting the expert’s reward function via inverse reinforcement learning, followed by reinforcement learning is indirect and may be computationally expensive. Recent generative adversarial methods based on matching the policy distribution between the expert and the agent could be unstable during training. We propose a new framework for imitation learning by estimating the support of the expert policy to compute a fixed reward function, which allows us to re-frame imitation learning within the standard reinforcement learning setting. We demonstrate the efficacy of our reward function on both discrete and continuous domains, achieving comparable or better performance than the state of the art under different reinforcement learning algorithms.
 
 Deep Counterfactual Regret Minimization
@@ -440,7 +440,7 @@ We propose a novel framework PROVEN to \textbf{PRO}babilistically \textbf{VE}rif
 
 Revisiting the Softmax Bellman Operator: New Benefits and New Perspective
 http://proceedings.mlr.press/v97/song19c/song19c.pdf
-Deep RL 1
+Deep RL
 The impact of softmax on the value function itself in reinforcement learning (RL) is often viewed as problematic because it leads to sub-optimal value (or Q) functions and interferes with the contraction properties of the Bellman operator. Surprisingly, despite these concerns, and independent of its effect on exploration, the softmax Bellman operator when combined with Deep Q-learning, leads to Q-functions with superior policies in practice, even outperforming its double Q-learning counterpart. To better understand how and why this occurs, we revisit theoretical properties of the softmax Bellman operator, and prove that (i) it converges to the standard Bellman operator exponentially fast in the inverse temperature parameter, and (ii) the distance of its Q function from the optimal one can be bounded. These alone do not explain its superior performance, so we also show that the softmax operator can reduce the overestimation error, which may give some insight into why a sub-optimal operator leads to better performance in the presence of value function approximation. A comparison among different Bellman operators is then presented, showing the trade-offs when selecting them.
 
 LGM-Net: Learning to Generate Matching Networks for Few-Shot Learning
@@ -460,7 +460,7 @@ In Generalized Linear Estimation (GLE) problems, we seek to estimate a signal th
 
 An Investigation of Model-Free Planning
 http://proceedings.mlr.press/v97/guez19a/guez19a.pdf
-Deep RL 2
+Deep RL
 The field of reinforcement learning (RL) is facing increasingly challenging domains with combinatorial complexity. For an RL agent to address these challenges, it is essential that it can plan effectively. Prior work has typically utilized an explicit model of the environment, combined with a specific planning algorithm (such as tree search). More recently, a new family of methods have been proposed that learn how to plan, by providing the structure for planning via an inductive bias in the function approximator (such as a tree structured neural network), trained end-to-end by a model-free RL algorithm. In this paper, we go even further, and demonstrate empirically that an entirely model-free approach, without special structure beyond standard neural network components such as convolutional networks and LSTMs, can learn to exhibit many of the characteristics typically associated with a model-based planner. We measure our agent’s effectiveness at planning in terms of its ability to generalize across a combinatorial and irreversible state space, its data efficiency, and its ability to utilize additional thinking time. We find that our agent has many of the characteristics that one might expect to find in a planning algorithm. Furthermore, it exceeds the state-of-the-art in challenging combinatorial domains such as Sokoban and outperforms other model-free approaches that utilize strong inductive biases toward planning.
 
 Projection onto Minkowski Sums with Application to Constrained Learning
@@ -515,7 +515,7 @@ A broad range of cross-$m$-domain generation researches boil down to matching a 
 
 CURIOUS: Intrinsically Motivated Modular Multi-Goal Reinforcement Learning
 http://proceedings.mlr.press/v97/colas19a/colas19a.pdf
-Deep RL 2
+Deep RL
 In open-ended environments, autonomous learning agents must set their own goals and build their own curriculum through an intrinsically motivated exploration. They may consider a large diversity of goals, aiming to discover what is controllable in their environments, and what is not. Because some goals might prove easy and some impossible, agents must actively select which goal to practice at any moment, to maximize their overall mastery on the set of learnable goals. This paper proposes CURIOUS , an algorithm that leverages 1) a modular Universal Value Function Approximator with hindsight learning to achieve a diversity of goals of different kinds within a unique policy and 2) an automated curriculum learning mechanism that biases the attention of the agent towards goals maximizing the absolute learning progress. Agents focus sequentially on goals of increasing complexity, and focus back on goals that are being forgotten. Experiments conducted in a new modular-goal robotic environment show the resulting developmental self-organization of a learning curriculum, and demonstrate properties of robustness to distracting goals, forgetting and changes in body properties.
 
 Blended Conditonal Gradients
@@ -555,7 +555,7 @@ Time-frequency (TF) representations provide powerful and intuitive features for 
 
 Task-Agnostic Dynamics Priors for Deep Reinforcement Learning
 http://proceedings.mlr.press/v97/du19e/du19e.pdf
-Deep RL 2
+Deep RL
 While model-based deep reinforcement learning (RL) holds great promise for sample efficiency and generalization, learning an accurate dynamics model is often challenging and requires substantial interaction with the environment. A wide variety of domains have dynamics that share common foundations like the laws of classical mechanics, which are rarely exploited by existing algorithms. In fact, humans continuously acquire and use such dynamics priors to easily adapt to operating in new environments. In this work, we propose an approach to learn task-agnostic dynamics priors from videos and incorporate them into an RL agent. Our method involves pre-training a frame predictor on task-agnostic physics videos to initialize dynamics models (and fine-tune them) for unseen target environments. Our frame prediction architecture, SpatialNet, is designed specifically to capture localized physical phenomena and interactions. Our approach allows for both faster policy learning and convergence to better policies, outperforming competitive approaches on several different environments. We also demonstrate that incorporating this prior allows for more effective transfer between environments.
 
 High-Fidelity Image Generation With Fewer Labels
@@ -600,7 +600,7 @@ Representation and learning of long-range dependencies is a central challenge co
 
 Diagnosing Bottlenecks in Deep Q-learning Algorithms
 http://proceedings.mlr.press/v97/fu19a/fu19a.pdf
-Deep RL 2
+Deep RL
 Q-learning methods are a common class of algorithms used in reinforcement learning (RL). However, their behavior with function approximation, especially with neural networks, is poorly understood theoretically and empirically. In this work, we aim to experimentally investigate potential issues in Q-learning, by means of a "unit testing" framework where we can utilize oracles to disentangle sources of error. Specifically, we investigate questions related to function approximation, sampling error and nonstationarity, and where available, verify if trends found in oracle settings hold true with deep RL methods. We find that large neural network architectures have many benefits with regards to learning stability; offer several practical compensations for overfitting; and develop a novel sampling method based on explicitly compensating for function approximation error that yields fair improvement on high-dimensional continuous control domains.
 
 Optimal Transport for structured data with application on graphs
@@ -660,7 +660,7 @@ We consider a two-agent MDP framework where agents repeatedly solve a task in a 
 
 Collaborative Evolutionary Reinforcement Learning
 http://proceedings.mlr.press/v97/khadka19a/khadka19a.pdf
-Deep RL 2
+Deep RL
 Deep reinforcement learning algorithms have been successfully applied to a range of challenging control tasks. However, these methods typically struggle with achieving effective exploration and are extremely sensitive to the choice of hyperparameters. One reason is that most approaches use a noisy version of their operating policy to explore - thereby limiting the range of exploration. In this paper, we introduce Collaborative Evolutionary Reinforcement Learning (CERL), a scalable framework that comprises a portfolio of policies that simultaneously explore and exploit diverse regions of the solution space. A collection of learners - typically proven algorithms like TD3 - optimize over varying time-horizons leading to this diverse portfolio. All learners contribute to and use a shared replay buffer to achieve greater sample efficiency. Computational resources are dynamically distributed to favor the best learners as a form of online algorithm selection. Neuroevolution binds this entire process to generate a single emergent learner that exceeds the capabilities of any individual learner. Experiments in a range of continuous control benchmarks demonstrate that the emergent learner significantly outperforms its composite learners while remaining overall more sample-efficient - notably solving the Mujoco Humanoid benchmark where all of its composite learners (TD3) fail entirely in isolation.
 
 A Conditional-Gradient-Based Augmented Lagrangian Framework
@@ -700,7 +700,7 @@ The principle of equivariance to symmetry transformations enables a theoreticall
 
 EMI: Exploration with Mutual Information
 http://proceedings.mlr.press/v97/kim19a/kim19a.pdf
-Deep RL 2
+Deep RL
 Reinforcement learning algorithms struggle when the reward signal is very sparse. In these cases, naive random exploration methods essentially rely on a random walk to stumble onto a rewarding state. Recent works utilize intrinsic motivation to guide the exploration via generative models, predictive forward models, or discriminative modeling of novelty. We propose EMI, which is an exploration method that constructs embedding representation of states and actions that does not rely on generative decoding of the full observation but extracts predictive signals that can be used to guide exploration based on forward prediction in the representation space. Our experiments show competitive results on challenging locomotion tasks with continuous control and on image-based exploration tasks with discrete actions on Atari. The source code is available at https://github.com/snu-mllab/EMI.
 
 Weakly-Supervised Temporal Localization via Occurrence Count Learning
@@ -725,7 +725,7 @@ We propose a general yet simple theorem describing the convergence of SGD under 
 
 Imitation Learning from Imperfect Demonstration
 http://proceedings.mlr.press/v97/wu19a/wu19a.pdf
-Deep RL 2
+Deep RL
 Imitation learning (IL) aims to learn an optimal policy from demonstrations. However, such demonstrations are often imperfect since collecting optimal ones is costly. To effectively learn from imperfect demonstrations, we propose a novel approach that utilizes confidence scores, which describe the quality of demonstrations. More specifically, we propose two confidence-based IL methods, namely two-step importance weighting IL (2IWIL) and generative adversarial IL with imperfect demonstration and confidence (IC-GAIL). We show that confidence scores given only to a small portion of sub-optimal demonstrations significantly improve the performance of IL both theoretically and empirically.
 
 Large-Scale Sparse Kernel Canonical Correlation Analysis
@@ -775,7 +775,7 @@ We consider decentralized stochastic optimization with the objective function (e
 
 Curiosity-Bottleneck: Exploration By Distilling Task-Specific Novelty
 http://proceedings.mlr.press/v97/kim19c/kim19c.pdf
-Deep RL 2
+Deep RL
 Exploration based on state novelty has brought great success in challenging reinforcement learning problems with sparse rewards. However, existing novelty-based strategies become inefficient in real-world problems where observation contains not only task-dependent state novelty of our interest but also task-irrelevant information that should be ignored. We introduce an information- theoretic exploration strategy named Curiosity-Bottleneck that distills task-relevant information from observation. Based on the information bottleneck principle, our exploration bonus is quantified as the compressiveness of observation with respect to the learned representation of a compressive value network. With extensive experiments on static image classification, grid-world and three hard-exploration Atari games, we show that Curiosity-Bottleneck learns an effective exploration strategy by robustly measuring the state novelty in distractive environments where state-of-the-art exploration methods often degenerate.
 
 Learning to Convolve: A Generalized Weight-Tying Approach
@@ -845,7 +845,7 @@ Graph sparsification has been used to improve the computational cost of learning
 
 Dynamic Weights in Multi-Objective Deep Reinforcement Learning
 http://proceedings.mlr.press/v97/abels19a/abels19a.pdf
-Deep RL 2
+Deep RL
 Many real-world decision problems are characterized by multiple conflicting objectives which must be balanced based on their relative importance. In the dynamic weights setting the relative importance changes over time and specialized algorithms that deal with such change, such as a tabular Reinforcement Learning (RL) algorithm by Natarajan and Tadepalli (2005), are required. However, this earlier work is not feasible for RL settings that necessitate the use of function approximators. We generalize across weight changes and high-dimensional inputs by proposing a multi-objective Q-network whose outputs are conditioned on the relative importance of objectives and we introduce Diverse Experience Replay (DER) to counter the inherent non-stationarity of the Dynamic Weights setting. We perform an extensive experimental evaluation and compare our methods to adapted algorithms from Deep Multi-Task/Multi-Objective Reinforcement Learning and show that our proposed network in combination with DER dominates these adapted algorithms across weight change scenarios and problem domains.
 
 Safe Grid Search with Optimal Complexity
@@ -900,7 +900,7 @@ In order to integrate uncertainty estimates into deep time-series modelling, Kal
 
 Fingerprint Policy Optimisation for Robust Reinforcement Learning
 http://proceedings.mlr.press/v97/paul19a/paul19a.pdf
-Deep RL 2
+Deep RL
 Policy gradient methods ignore the potential value of adjusting environment variables: unobservable state features that are randomly determined by the environment in a physical setting, but are controllable in a simulator. This can lead to slow learning, or convergence to suboptimal policies, if the environment variable has a large impact on the transition dynamics. In this paper, we present fingerprint policy optimisation (FPO), which finds a policy that is optimal in expectation across the distribution of environment variables. The central idea is to use Bayesian optimisation (BO) to actively select the distribution of the environment variable that maximises the improvement generated by each iteration of the policy gradient method. To make this BO practical, we contribute two easy-to-compute low-dimensional fingerprints of the current policy. Our experiments show that FPO can efficiently learn policies that are robust to significant rare events, which are unlikely to be observable under random sampling, but are key to learning good policies.
 
 Natural Analysts in Adaptive Data Analysis
@@ -1316,7 +1316,7 @@ We present DL2, a system for training and querying neural networks with logical 
 Stochastic Deep Networks
 http://proceedings.mlr.press/v97/de-bie19a/de-bie19a.pdf
 Deep Learning Architectures
-Machine learning is increasingly targeting areas where input data cannot be accurately described by a single vector, but can be modeled instead using the more flexible concept of random vectors, namely probability measures or more simply point clouds of varying cardinality. Using deep architectures on measures poses, however, many challenging issues. Indeed, deep architectures are originally designed to handle fixed-length vectors, or, using recursive mechanisms, ordered sequences thereof. In sharp contrast, measures describe a varying number of weighted observations with no particular order. We propose in this work a deep framework designed to handle crucial aspects of measures, namely permutation invariances, variations in weights and cardinality. Architectures derived from this pipeline can (i) map measures to measures - using the concept of push-forward operators; (ii) bridge the gap between measures and Euclidean spaces - through integration steps. This allows to design discriminative networks (to classify or reduce the dimensionality of input measures), generative architectures (to synthesize measures) and recurrent pipelines (to predict measure dynamics). We provide a theoretical analysis of these building blocks, review our architectures’ approximation abilities and robustness w.r.t. perturbation, and try them on various discriminative and generative tasks.
+Machine learning is increasingly targeting areas where input data cannot be accurately described by a single vector, but can be modeled instead using the more flexible concept of random vectors, namely probability measures or more simply point clouds of varying cardinality. Using deep architectures on measures poses, however, many challenging issues. Indeed, deep architectures are originally designed to handle  fixed-length vectors, or, using recursive mechanisms, ordered sequences thereof. In sharp contrast, measures describe a varying number of weighted observations with no particular order. We propose in this work a deep framework designed to handle crucial aspects of measures, namely permutation invariances, variations in weights and cardinality. Architectures derived from this pipeline can (i) map measures to measures - using the concept of push-forward operators; (ii) bridge the gap between measures and Euclidean spaces - through integration steps. This allows to design discriminative networks (to classify or reduce the dimensionality of input measures), generative architectures (to synthesize measures) and recurrent pipelines (to predict measure dynamics). We provide a theoretical analysis of these building blocks, review our architectures’ approximation abilities and robustness w.r.t. perturbation, and try them on various discriminative and generative tasks.
 
 Self-similar Epochs: Value in arrangement
 http://proceedings.mlr.press/v97/buchnik19a/buchnik19a.pdf
@@ -3862,4 +3862,3 @@ Geometry and Symmetry in Short-and-Sparse Deconvolution
 http://proceedings.mlr.press/v97/kuo19a/kuo19a.pdf
 Unsupervised Learning
 We study the Short-and-Sparse (SaS) deconvolution problem of recovering a short signal a0 and a sparse signal x0 from their convolution. We propose a method based on nonconvex optimization, which under certain conditions recovers the target short and sparse signals, up to a signed shift symmetry which is intrinsic to this model. This symmetry plays a central role in shaping the optimization landscape for deconvolution. We give a regional analysis, which characterizes this landscape geometrically, on a union of subspaces. Our geometric characterization holds when the length-p0 short signal a0 has shift coherence {\textmu}, and x0 follows a random sparsity model with sparsity rate $\theta$ $\in$ [c1/p0, c2/(p0\sqrt{\mu}+\sqrt{p0})] / (log^2(p0)) . Based on this geometry, we give a provable method that successfully solves SaS deconvolution with high probability.
-

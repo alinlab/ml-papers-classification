@@ -1,5 +1,5 @@
 # Paper category
-In papers_categories.txt, 57 categories of papers in ICML 2019 are listed, each one is shown in one line.
+In papers_categories.txt, 55 categories of papers in ICML 2019 are listed, each one is shown in one line.
 
 # Paper information
 In paper_info.txt, 773 papers in ICML 2019 are listed with their information. The information include the followings:

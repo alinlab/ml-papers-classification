@@ -18,8 +18,6 @@ Deep Learning Architectures
 Deep Learning Optimization
 Deep Learning Theory
 Deep RL
-Deep RL 1
-Deep RL 2
 Deep Sequence Models
 Fairness
 Gaussian Processes
