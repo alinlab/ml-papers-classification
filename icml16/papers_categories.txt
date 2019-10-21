@@ -1,0 +1,41 @@
+Applications and Time-Series Analysis
+Approximate Inference
+Bandit Problems
+Bayesian Nonparametric Methods
+Causal Inference
+Clustering
+Crowdsourcing and Interactive Learning
+Dimensionality Reduction / Private Learning
+Feature Selection and Dimensionality Reduction
+Gaussian Processes
+Graph Analysis/ Spectral Methods
+Graphical Models
+Kernel Methods
+Large Scale Learning and Big Data
+Learning Theory
+Machine Learning Applications
+Matrix Factorization / Neuroscience Applications
+Matrix Factorization and Related Topics
+Metric and  Manifold Learning / Kernel Methods
+Monte Carlo Methods
+Multi-label, multi-task, and neural networks
+Neural Networks and Deep Learning
+Neural Networks and Deep Learning&nbsp;I
+Neural Networks and Deep Learning&nbsp;II
+Neural Networks and Deep Learning&nbsp;II (Computer Vision)
+Online Learning
+Optimization
+Optimization (Combinatorial)
+Optimization (Continuous)
+Optimization / Online Learning
+Privacy, Anonymity, and Security
+Ranking and Preference Learning
+Reinforcement Learning
+Sampling / Kernel Methods
+Sparsity and Compressed Sensing
+Statistical Learning Theory
+Structured Prediction / Monte Carlo Methods
+Supervised Learning
+Transfer Learning / Learning Theory
+Unsupervised Learning / Applications
+Unsupervised Learning / Representation Learning
