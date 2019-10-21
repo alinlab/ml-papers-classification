@@ -1,6 +1,6 @@
 # ml-papers-classification
 
-This is dataset and source codes for category classification of (recent years) ML conference papers in {ICML, NeurIPS}. Run the processing script to generate the dataset:
+This is dataset and source codes for category classification of (recent years) ML conference papers in {ICML, NeurIPS}. Currently, only ICML-16 dataset is available for preprocessing. Run the preprocessing script to generate the dataset:
 
 ```
 python process.py
