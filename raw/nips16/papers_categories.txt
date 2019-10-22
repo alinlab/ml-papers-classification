@@ -1,0 +1,62 @@
+Active Learning
+(Application) Bioinformatics and Systems Biology
+(Application) Collaborative Filtering and Recommender Systems
+(Application) Computer Vision
+(Application) Information Retrieval
+(Application) Natural Language and Text Processing
+(Application) Object and Pattern Recognition
+(Application) Privacy, Anonymity, and Security
+(Application) Signal and Speech Processing
+(Application) Social Networks
+(Application) Web Applications and Internet Data
+Bandit Algorithms
+Bayesian Nonparametrics
+Causality
+Clustering
+(Cognitive/Neuroscience) Language
+(Cognitive/Neuroscience) Neural Coding
+(Cognitive/Neuroscience) Perception
+(Cognitive/Neuroscience) Reinforcement Learning
+(Cognitive/Neuroscience) Theoretical Neuroscience
+Combinatorial Optimization
+Component Analysis (ICA,PCA,CCA, FLDA)
+Convex Optimization
+Deep Learning or Neural Networks
+Ensemble Methods and Boosting
+Game Theory and Econometrics
+Gaussian Processes
+Graph-based Learning
+Graphical Models
+Information Theory
+Kernel Methods
+Large Scale Learning and Big Data
+Learning Theory
+Matrix Factorization
+MCMC
+Model Selection and Structure Learning
+Multi-task and Transfer Learning
+Nonlinear Dimension Reduction and Manifold Learning
+Online Learning
+(Other) Applications
+(Other) Bayesian Inference
+(Other) Classification
+(Other) Cognitive Science
+(Other) Machine Learning Topics
+(Other) Neuroscience
+(Other) Optimization
+(Other) Probabilistic Models and Methods
+(Other) Regression
+(Other) Robotics and Control
+(Other) Statistics
+(Other) Unsupervised Learning Methods
+Ranking and Preference Learning
+Regularization and Large Margin Methods
+Reinforcement Learning Algorithms
+Semi-Supervised Learning
+Similarity and Distance Learning
+Sparsity and Feature Selection
+Spectral Methods
+Stochastic Methods
+Structured Prediction
+Time Series Analysis
+Variational Inference
