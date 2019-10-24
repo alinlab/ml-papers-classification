@@ -18,7 +18,7 @@ Specifically, there can exist multiple categories (first order of hierarchy):
 "category": [[“Optimization”], [“Combinatorial Optimization”]]
 ```
 
-This means that category is both “optimization” and “combinatorial optimization”
+This means that category is both “optimization” and “combinatorial optimization”.
 
 There also exist noisy labels (second order of hierarchy):
 
@@ -26,7 +26,7 @@ There also exist noisy labels (second order of hierarchy):
 "category": [[“Semi-Supervised Learning”, “Transfer Learning”]]
 ```
 
-This means that category if one of “semi-supervised learning” or “transfer learning” (we do not know the answer)
+This means that category if one of “semi-supervised learning” or “transfer learning” (we do not know the answer).
 
 In combination, 
 
@@ -34,4 +34,10 @@ In combination,
 "category": [[“Optimization”], [“Semi-Supervised Learning”, “Transfer Learning”]]
 ```
 
-This means that category is “optimization” and one of “semi-supervised learning” or “transfer learning”
+This means that category is “optimization” and one of “semi-supervised learning” or “transfer learning”.
+
+UNLABELED DATASET can exist, with category as follows:
+
+```
+"category": []
+```
